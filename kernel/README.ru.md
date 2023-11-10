@@ -5,10 +5,10 @@
 > [!IMPORTANT]
 > Для этого у вас должен быть собственный docker registry или аккаунт в docker hub
 
-Загрузите файлы нужной версии с mikbill, распакуйте и разместите их в директории **files**
+Загрузите файлы модуля admin нужной версии с mikbill, распакуйте и разместите mikbill.php в директории **kernel**
 Войдите в каталог сборки и выполните команду:
 
 ```
-docker build -t USERNAME/admin:VERSION -f container.dockerfile .
-docker push USERNAME/admin:VERSION
+docker build -t USERNAME/kernel:VERSION -f kernel.dockerfile .
+docker push USERNAME/kernel:VERSION
 ```

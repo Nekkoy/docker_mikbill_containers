@@ -9,6 +9,6 @@
 Войдите в каталог сборки и выполните команду:
 
 ```
-docker build -t USERNAME/admin:VERSION -f container.dockerfile .
-docker push USERNAME/admin:VERSION
+docker build -t USERNAME/cabinet_api:VERSION -f container.dockerfile .
+docker push USERNAME/cabinet_api:VERSION
 ```

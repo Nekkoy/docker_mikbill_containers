@@ -5,10 +5,10 @@
 > [!IMPORTANT]
 > Для этого у вас должен быть собственный docker registry или аккаунт в docker hub
 
-Загрузите файлы нужной версии с mikbill, распакуйте и разместите их в директории **files**
+Загрузите файлы модуля админки нужной версии с mikbill, распакуйте и разместите index.php в директории **files**
 Войдите в каталог сборки и выполните команду:
 
 ```
-docker build -t USERNAME/admin:VERSION -f container.dockerfile .
-docker push USERNAME/admin:VERSION
+docker build -t USERNAME/payments:VERSION -f container.dockerfile .
+docker push USERNAME/payments:VERSION
 ```
