@@ -3,7 +3,7 @@
 [![ru](https://img.shields.io/badge/lang-ru-blue.svg)](README.ru.md)
 
 > [!IMPORTANT]
-> Для цого у вас потрiбен власний docker registry або аккаунт у docker hub
+> Для цього у вас потрібен бути власний docker registry або аккаунт у docker hub
 
 Завантажте файли потрібної версії з mikbill і розмістіть їх у директорії **files**
 Увійдіть у каталог збірки та виконайте команду:
